@@ -131,6 +131,7 @@ input, select {
 
 .eye-catch {
   height: 600px;
+  width: 100%;
   background: url(../img/eyecatch.jpg) no-repeat;
   background-size: cover;
   background-position: center;
@@ -202,7 +203,7 @@ input, select {
   margin-bottom: 15px;
 }
 
-.misson-group {
+.mission-group {
   position: relative;
   top: -180px;
   left: 270px;
@@ -224,42 +225,48 @@ input, select {
 .service h1 {
   text-align: center;
   font-size: 25px;
-  padding-top: 15px;
+  padding: 15px 0;
+}
+
+.service .btn {
+  position: absolute;
+  right: 50px;
 }
 
 .pic {
   width: 550px;
-  position: relative;
 }
 
-
 #camera {
-  top: 20px;
-  left:51%;
-
+  position: absolute;
+  right: 0;
 }
 
 #flame {
-  top: 20px;
+  position: absolute;
+  left: 0;
+  bottom: -110%;
 }
 
 .card {
   background-color: white;
   font-size: 5px;
-  padding: 35px 35px 70px 35px;
+  padding: 50px 0px 95px 50px;
   width: 400px;
   position: relative;
   height: 80px;
 }
 
 #card1 {
-  top: -250px;
-  left:21%;
+  position: absolute;
+  right: 500px;
+  top: 1200px;
 }
 
 #card2 {
-  top: -220px;
-  left:40%;
+  position: absolute;
+  left: 450px;
+  bottom: -105%;
 }
 
 
@@ -342,14 +349,6 @@ input, select {
   top: -10px;
   text-align: center;
 }
-
-
-
-
-
-
-
-
 
 .footer {
   height: 70px;
