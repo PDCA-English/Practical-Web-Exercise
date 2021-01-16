@@ -141,9 +141,9 @@ input, select {
 #first-comment {
   color: white;
   font-size: 35px;
-  position: relative;
-  top: 60%;
-  left: 5%;
+  position: absolute;
+  top: 360px;
+  left: 100px;
 }
 
 .news {
@@ -204,9 +204,10 @@ input, select {
 }
 
 .mission-group {
-  position: relative;
-  top: -180px;
-  left: 270px;
+  width: 800px;
+  position: absolute;
+  top: 790px;
+  left: 200px;
 }
 
 .btn {
